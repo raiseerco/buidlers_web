@@ -42,12 +42,14 @@ export default function FeaturedAreas() {
   return (
     <div className="mt-14 py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="lg:text-center">
-          <h2 className="text-lg font-semibold text-slate-500">STACKS</h2>
+        <div className="text-center">
+          <h2 className="text-lg font-semibold text-slate-500">
+            NUESTROS STACKS
+          </h2>
           <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-amber-300 sm:text-4xl">
             Áreas de estudio
           </p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
             Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
             voluptatum cupiditate veritatis in accusamus quisquam.
           </p>
