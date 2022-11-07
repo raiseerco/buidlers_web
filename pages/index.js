@@ -5,6 +5,9 @@ import Hero from '../components/heroMain'
 import Motivations from '../components/motivations'
 import HeroStudies from '../components/engagement'
 import FeaturedAreas from '../components/featuredAreas'
+import CardSquare from '../components/cardSquare'
+import Footer from '../components/footer'
+import CommunitySlider from '../components/comunitySlider'
 export default function Home() {
   return (
     <PageLayout title="Homeee">
@@ -14,7 +17,10 @@ export default function Home() {
           <Hero></Hero>
           <Motivations />
           <FeaturedAreas></FeaturedAreas>
+          <CardSquare></CardSquare>
+          <CommunitySlider></CommunitySlider>
           <HeroStudies></HeroStudies>
+          <Footer></Footer>
         </div>
         {/* <main className={styles.main}>
         <h1 className={styles.title}>
