@@ -89,7 +89,7 @@ export default function Footer() {
             <h3 className="py-1.5 md:py-4 text-center sm:text-left text-xl text-gray-500 font-bold tracking-wide">
               Secciones
             </h3>
-            <nav className="flex justify-around md:flex-col font-medium list-none">
+            <nav className="flex-none justify-around md:flex-col font-medium list-none">
               <li>
                 <a href="#link" className="hover:text-gray-200">
                   Inicio
