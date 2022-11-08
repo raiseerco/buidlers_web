@@ -58,7 +58,7 @@ export default function Motivations() {
                 </div>
 
                 <div>
-                  <p className="text-lg mt-6 text-center font-medium leading-6 text-amber-300">
+                  <p className="text-lg mt-6  font-medium leading-6 text-amber-300">
                     {feature.name}
                   </p>
                 </div>
