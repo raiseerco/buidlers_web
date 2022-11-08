@@ -44,7 +44,7 @@ export default function Navi() {
   return (
     <div className="relative z-50">
       <div className="fixed top-0 left-0 right-0">
-        <div className="flex filter drop-shadow-md z-50 bg-black px-4 py-4 h-20 items-center px-14">
+        <div className="flex filter drop-shadow-md z-50 bg-black py-4 h-20 items-center px-8">
           <MobileNav open={open} setOpen={setOpen} />
           <div className="w-3/12 flex items-center">
             <Logo src={LogoDark} />
