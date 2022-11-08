@@ -59,15 +59,7 @@ export default function Engagement() {
                     bg-transparent border-amber-500 border-opacity-60 px-8 py-3 text-base text-amber-600
                      hover:bg-amber-400 md:py-4 md:px-10 md:text-lg"
                   >
-                    ANUNCIOS&nbsp;&nbsp;
-                    <Image
-                      className="w-10"
-                      src={'/bg/telegram.png'}
-                      width="300"
-                      height="200"
-                      alt="Telegram"
-                    />
-                    &nbsp;
+                    CANAL DE ANUNCIOS
                   </Link>
                 </div>
 
@@ -78,15 +70,7 @@ export default function Engagement() {
                      bg-transparent border-amber-500 border-opacity-60 px-8 py-3 text-base text-amber-600
                       hover:bg-amber-400 md:py-4 md:px-10 md:text-lg"
                   >
-                    CHATS &nbsp;
-                    <Image
-                      className="w-28"
-                      src={'/bg/discord.png'}
-                      width="300"
-                      height="200"
-                      alt="Discord"
-                    />
-                    &nbsp;→
+                    CHATS EN DISCORD
                   </Link>
                 </div>
               </div>
