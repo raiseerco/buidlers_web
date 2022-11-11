@@ -30,29 +30,19 @@ export default function Hero() {
                 </div>
               </h1>
               <p className="mt-3 text-base text-gray-300 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                Somos el hub de desarrolladores Web3 en español, donde la
+                Formamos el hub de desarrolladores Web3 en español donde la
                 descentralización, calidad y colaboración son parte de nuestra
                 identidad.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <a
-                    href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-amber-500 bg- px-8 py-3
-                     text-base font-bold text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
-                  >
-                    SÉ PARTE →
-                  </a>
-                </div>
-
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="#"
-                    className="flex font-bold w-full items-center justify-center rounded-md border border-transparent
+                    className="flex w-full items-center justify-center rounded-md border border-transparent
                      bg-transparent border-amber-500 border-opacity-60 px-8 py-3 text-base text-slate-500
-                      hover:bg-amber-400 md:py-4 md:px-10 md:text-lg"
+                      font-monospace font-light  hover:bg-amber-400 md:py-4 md:px-10 md:text-lg"
                   >
-                    PRESENTACIÓN 🎬
+                    🏁 Lanzamiento Nov &apos;22!
                   </a>
                 </div>
               </div>

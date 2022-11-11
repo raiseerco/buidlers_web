@@ -12,17 +12,6 @@ function MobileNav({ open, setOpen }) {
     >
       <div className="flex flex-col  text-white">
         <Link
-          className="text-xl font-medium my-4"
-          href="/about"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open)
-            }, 100)
-          }
-        >
-          Sobre nosotros
-        </Link>
-        <Link
           className="text-xl font-normal my-4"
           href="/contact"
           onClick={() =>
@@ -75,9 +64,6 @@ export default function Navi() {
             </div>
 
             <div className="hidden md:flex text-stone-300 font-bold">
-              <Link className="px-3" href="/about">
-                SOBRE NOSOTROS
-              </Link>
               <Link className="px-3" href="/contact">
                 CONTACTO
               </Link>
