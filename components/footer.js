@@ -56,7 +56,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/buidlers-tech"
                 className="ml-3 text-gray-200"
               >
-                <span className="sr-only">Linkedin</span>
+                <span className="sr-only">LinkedIn</span>
                 <svg
                   fill="currentColor"
                   stroke="currentColor"
