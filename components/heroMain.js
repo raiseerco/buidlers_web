@@ -35,7 +35,7 @@ export default function Hero() {
                 identidad.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="mt-3 sm:mt-0 sm:ml-3">
+                <div className="mt-5 sm:mt-0 sm:ml-3">
                   <a
                     href="#"
                     className="flex w-full items-center justify-center rounded-md border border-transparent
