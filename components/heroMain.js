@@ -17,7 +17,7 @@ export default function Hero() {
 
           <div className="relative px-2 pt-2 sm:px-2 lg:px-2"></div>
 
-          <main className="mx-auto mt-10 max-w-7xl px-8 sm:mt-8 sm:px-6 md:mt-8 lg:mt-8 lg:px-8 xl:mt-12 animate-in slide-in-from-right duration-1000">
+          <main className="mx-auto mt-10 max-w-7xl px-8 sm:mt-8 sm:px-6 md:mt-8 lg:mt-8 lg:px-8 xl:mt-12 animate-in slide-in-from-left duration-1000">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl font-bold tracking-tight text-amber-50 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">
@@ -39,10 +39,10 @@ export default function Hero() {
                   <a
                     href="#"
                     className="flex w-full items-center justify-center rounded-md border border-transparent
-                     bg-transparent border-amber-500 border-opacity-60 px-8 py-3 text-base text-slate-500
+                     bg-transparent border-amber-500 border-opacity-60 px-8 py-3 text-base text-amber-500
                       font-monospace font-light  hover:bg-amber-400 md:py-4 md:px-10 md:text-lg"
                   >
-                    🏁 Lanzamiento Nov &apos;22!
+                    Lanzamiento Nov &apos;22! 🏁
                   </a>
                 </div>
               </div>
