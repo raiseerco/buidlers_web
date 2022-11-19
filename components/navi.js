@@ -64,7 +64,7 @@ export default function Navi() {
             </div>
 
             <div className="hidden md:flex text-stone-300 font-bold">
-              <Link className="px-3" href="/contact">
+              <Link className="px-3" href="#linkContact">
                 CONTACTO
               </Link>
             </div>

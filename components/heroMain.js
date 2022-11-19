@@ -17,7 +17,7 @@ export default function Hero() {
 
           <div className="relative px-2 pt-2 sm:px-2 lg:px-2"></div>
 
-          <main className="mx-auto mt-10 max-w-7xl px-8 sm:mt-8 sm:px-6 md:mt-8 lg:mt-8 lg:px-8 xl:mt-12">
+          <main className="mx-auto mt-10 max-w-7xl px-8 sm:mt-8 sm:px-6 md:mt-8 lg:mt-8 lg:px-8 xl:mt-12  animate-in fade-in duration-1000">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl font-bold tracking-tight text-amber-50 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">
@@ -50,13 +50,13 @@ export default function Hero() {
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div className="  animate-in slide-in-from-left duration-1000  lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <Image
-          className="h-56 w-full rounded-3xl   object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
+          className="  h-56 w-full rounded-3xl object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
           src={'/bg/25.png'}
           width="1000"
           height="1000"
-          layout="cover"
+          priority="true"
           alt=""
         />
       </div>

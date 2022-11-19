@@ -107,7 +107,10 @@ export default function Footer() {
           </div>
 
           {/* ::Email */}
-          <div className="col-span-2 md:col-span-1 pb-0 md:py-3 px-4 flex flex-col items-center sm:items-start">
+          <div
+            id="linkContact"
+            className="col-span-2 md:col-span-1 pb-0 md:py-3 px-4 flex flex-col items-center sm:items-start"
+          >
             <h3 className="py-1.5 md:py-4 text-xl text-gray-500 font-bold tracking-wide">
               Contacto
             </h3>
